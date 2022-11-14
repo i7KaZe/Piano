@@ -1,0 +1,46 @@
+html {
+    background-image: url(ex16_sounds/image_fond.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+body {
+  width: 800px;
+  margin: auto;
+}
+
+.keys {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.key {
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  border: solid 2px black;
+  border-radius: 25% 10%;
+  gap: 5px;
+  background-color: rgba(0, 0, 0, 0.285);
+}
+
+kbd {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+span {
+  font-size: xx-small;
+  font-weight: normal;
+  color: orange;
+}
+

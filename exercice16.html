@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercice16_piano.css"> 
+    <script defer src="exercice16.js"></script>
+    <title> Exercice 16 Javascript </title>
+</head>
+<body>
+    <div class="nowplaying"></div>
+    <div class="keys">
+    <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="clap">clap</span> 
+    </div>
+    <div data-key="90" class="key sharp" id="z">
+        <kbd>Z</kbd>
+        <span class="boom">boom</span> 
+    </div>
+    <div data-key="69" class="key">
+        <kbd>E</kbd>
+        <span class="hihat">hihat</span> 
+    </div>
+    <div data-key="82" class="key sharp" id="r">
+        <kbd>R</kbd>
+        <span class="kick">kick</span> 
+    </div>
+    <div data-key="84" class="key">
+        <kbd>T</kbd>
+        <span class="ride">ride</span> 
+    </div>
+    <div data-key="89" class="key">
+        <kbd>Y</kbd>
+        <span class="snare">snare</span> 
+    </div>
+    <div data-key="85" class="key sharp" id="u">
+        <kbd>U</kbd>
+        <span class="tink">tink</span> 
+    </div>
+    </div>
+    <audio src="ex16_sounds\drum\clap.wav" data-key="65"></audio>
+    <audio src="ex16_sounds\drum\boom.wav" data-key="90"></audio>
+    <audio src="ex16_sounds\drum\hihat.wav" data-key="69"></audio>
+    <audio src="ex16_sounds\drum\kick.wav" data-key="82"></audio>
+    <audio src="ex16_sounds\drum\ride.wav" data-key="84"></audio>
+    <audio src="ex16_sounds\drum\snare.wav" data-key="89"></audio>
+    <audio src="ex16_sounds\drum\tink.wav" data-key="85"></audio>
+<body>
+</html>
